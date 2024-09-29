@@ -46,7 +46,6 @@ export default (variables: Theme) =>
     },
     Body: {
       position: 'relative',
-      borderTopWidth: StyleSheet.hairlineWidth,
       borderTopColor: variables.border_color_thin,
     },
     BodyBottomLine: {
@@ -55,7 +54,6 @@ export default (variables: Theme) =>
       left: 0,
       right: 0,
       height: StyleSheet.hairlineWidth,
-      backgroundColor: variables.border_color_thin,
     },
 
     underlayColor: {
@@ -65,17 +63,14 @@ export default (variables: Theme) =>
       flexGrow: 1,
       alignItems: 'center',
       flexDirection: 'row',
-      paddingLeft: variables.h_spacing_lg,
       backgroundColor: variables.fill_base,
     },
     Line: {
       flex: 1,
       flexDirection: 'row',
       alignItems: 'center',
-      paddingRight: variables.h_spacing_lg,
       paddingVertical: variables.v_spacing_sm,
       minHeight: variables.list_item_height,
-      borderBottomWidth: StyleSheet.hairlineWidth,
       borderBottomColor: variables.border_color_base,
     },
     Thumb: {
