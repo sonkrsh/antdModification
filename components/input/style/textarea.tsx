@@ -18,6 +18,7 @@ export default (theme: Theme) =>
       paddingVertical: theme.prefix_padding,
       textAlignVertical: 'top',
       includeFontPadding: true,
+      color: '#000000',
     },
     clearIcon: {
       position: 'absolute',
